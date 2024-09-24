@@ -11,7 +11,7 @@ Requirements:
 Setup Instructions:
 
 1. Clone the repository:
-   git clone <repository-url>
+   git clone git@github.com:Prabhu31/recruitment_system.git
    cd recruitment_system
 
 2. Create a virtual environment:
