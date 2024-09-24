@@ -7,5 +7,8 @@ class Candidate(models.Model):
     email = models.EmailField(unique=True)
     phone_number = models.CharField(max_length=15)
 
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return self.name
