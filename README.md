@@ -12,26 +12,27 @@ Setup Instructions:
 
 1. Clone the repository:
    git clone git@github.com:Prabhu31/recruitment_system.git
+   
    cd recruitment_system
 
-2. Create a virtual environment:
+3. Create a virtual environment:
    python -m venv venv
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
    - On Windows: venv\Scripts\activate
    - On macOS/Linux: source venv/bin/activate
 
-4. Install the requirements:
+5. Install the requirements:
    pip install -r requirements.txt
 
-5. Run migrations:
+6. Run migrations:
    python manage.py migrate
 
-6. Create a superuser:
+7. Create a superuser:
    python manage.py createsuperuser
 
-7. Run the development server:
+8. Run the development server:
    python manage.py runserver
 
-8. Access the admin panel:
+9. Access the admin panel:
    Open your web browser and go to http://127.0.0.1:8000/admin/ to log in with your superuser credentials.
